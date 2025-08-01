@@ -24,8 +24,8 @@ jobs:
 
       - name: commit files
         run: |
-          git config --local user.email "david.ory@gmail.com"
-          git config --local user.name "DavidOry"
+          git config --local user.email "f.dunn@fehrandpeers.com"
+          git config --local user.name "FionaDunn19"
           git add -A
           git commit --allow-empty -m "GitHub Action automated registry update" -a
 
