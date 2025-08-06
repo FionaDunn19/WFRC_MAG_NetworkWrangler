@@ -1,5 +1,5 @@
 project: Grid_WFRC_W23 - BL_CC_NoNodeChange
-tags: []
+tags: ['BL']
 dependencies: {}
 notes: ''
 changes:
