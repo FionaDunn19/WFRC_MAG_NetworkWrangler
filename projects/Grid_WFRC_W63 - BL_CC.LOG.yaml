@@ -6,7 +6,7 @@ changes:
 - roadway_addition:
     links:
     - A: 27432
-      B: 95066
+      B: 95071
       DISTANCE: 0.2601
       DISTEXCEPT: 0
       EXTERNAL: 0
@@ -131,14 +131,14 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57811
+      model_link_id: 58089
       lanes: 0
       drive_access: 1
       walk_access: 1
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 95066
+    - A: 95071
       B: 27432
       DISTANCE: 0.2601
       DISTEXCEPT: 0
@@ -264,7 +264,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57812
+      model_link_id: 58090
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -397,7 +397,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57813
+      model_link_id: 58091
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -530,7 +530,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57814
+      model_link_id: 58092
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -541,7 +541,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 95066
+      model_node_id: 95071
       X: -112.10307103360888
       Y: 41.152713838839816
       GEOGKEY: ''
