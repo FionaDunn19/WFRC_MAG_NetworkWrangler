@@ -2947,7 +2947,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: '6026'
+      model_node_id: 6026
       X: -111.8413893619327
       Y: 40.63170467890798
       GEOGKEY: ''
@@ -2979,7 +2979,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: '6027'
+      model_node_id: 6027
       X: -111.84076360380469
       Y: 40.629678488909306
       GEOGKEY: ''
@@ -3011,7 +3011,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: '6028'
+      model_node_id: 6028
       X: -111.8381504795595
       Y: 40.62459635461203
       GEOGKEY: ''
@@ -3043,7 +3043,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: '6029'
+      model_node_id: 6029
       X: -111.84187698039507
       Y: 40.62787062463088
       GEOGKEY: ''
@@ -3075,7 +3075,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: '6030'
+      model_node_id: 6030
       X: -111.84003902877012
       Y: 40.62825120114756
       GEOGKEY: ''
