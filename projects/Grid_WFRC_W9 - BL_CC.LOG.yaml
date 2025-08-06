@@ -1,4 +1,4 @@
-project: Grid_WFRC_W10 - BL_CC
+project: Grid_WFRC_W9 - BL_CC
 tags: []
 dependencies: {}
 notes: ''
@@ -6,24 +6,22 @@ changes:
 - roadway_deletion:
     links:
       model_link_id:
-      - 4383
-      - 19551
-      - 19870
-      - 20351
-      - 19555
-      - 19863
+      - 18461
+      - 18801
+      - 18637
+      - 19058
       modes:
       - any
       ignore_missing: true
 - roadway_addition:
     links:
-    - A: 1823
-      B: 6030
-      DISTANCE: 0.0329
+    - A: 23357
+      B: 6020
+      DISTANCE: 0.19077
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '1823_6030'
-      STREET: Cent
+      LINKID: '23357_23489'
+      STREET: Murray Ta
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
@@ -34,30 +32,30 @@ changes:
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 7
-      LN_2019: 7
-      LN_2021: 7
-      LN_2023: 7
-      LN_2028: 7
-      LN23_32: 7
-      LN23_42: 7
-      LN23_50: 7
-      LN23_32UF: 7
-      LN23_42UF: 7
-      LN23_50UF: 7
-      LN23_50UFM: 7
-      FT_2015: 1
-      FT_2019: 1
-      FT_2021: 1
-      FT_2023: 1
-      FT_2028: 1
-      FT23_32: 1
-      FT23_42: 1
-      FT23_50: 1
-      FT23_32UF: 1
-      FT23_42UF: 1
-      FT23_50UF: 1
+      TAZID: 1591
+      LN_2015: 1
+      LN_2019: 1
+      LN_2021: 1
+      LN_2023: 1
+      LN_2028: 1
+      LN23_32: 1
+      LN23_42: 1
+      LN23_50: 1
+      LN23_32UF: 1
+      LN23_42UF: 1
+      LN23_50UF: 1
+      LN23_50UFM: 1
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -108,7 +106,7 @@ changes:
       OP23_32UF: 0
       OP23_42UF: 0
       OP23_50UF: 0
-      SEGID: ''
+      SEGID: '2142_000.3'
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -131,10 +129,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 7
-      LN27_55CO: 7
-      FT27_55RO: 1
-      FT27_55CO: 1
+      LN27_55RO: 1
+      LN27_55CO: 1
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -150,47 +148,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6030
-      B: 1823
-      DISTANCE: 0.0329
+    - A: 6020
+      B: 23489
+      DISTANCE: 0.20694
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '6030_1823'
-      STREET: Cent
+      LINKID: '23357_23489'
+      STREET: Murray Ta
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: WB
+      DIRECTION: EB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 7
-      LN_2019: 7
-      LN_2021: 7
-      LN_2023: 7
-      LN_2028: 7
-      LN23_32: 7
-      LN23_42: 7
-      LN23_50: 7
-      LN23_32UF: 7
-      LN23_42UF: 7
-      LN23_50UF: 7
-      LN23_50UFM: 7
-      FT_2015: 1
-      FT_2019: 1
-      FT_2021: 1
-      FT_2023: 1
-      FT_2028: 1
-      FT23_32: 1
-      FT23_42: 1
-      FT23_50: 1
-      FT23_32UF: 1
-      FT23_42UF: 1
-      FT23_50UF: 1
+      TAZID: 1591
+      LN_2015: 1
+      LN_2019: 1
+      LN_2021: 1
+      LN_2023: 1
+      LN_2028: 1
+      LN23_32: 1
+      LN23_42: 1
+      LN23_50: 1
+      LN23_32UF: 1
+      LN23_42UF: 1
+      LN23_50UF: 1
+      LN23_50UFM: 1
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -241,7 +239,7 @@ changes:
       OP23_32UF: 0
       OP23_42UF: 0
       OP23_50UF: 0
-      SEGID: ''
+      SEGID: '2142_000.3'
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -264,10 +262,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 7
-      LN27_55CO: 7
-      FT27_55RO: 1
-      FT27_55CO: 1
+      LN27_55RO: 1
+      LN27_55CO: 1
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -283,24 +281,24 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 23902
-      B: 6025
-      DISTANCE: 0.35919
+    - A: 23489
+      B: 6020
+      DISTANCE: 0.20694
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '23902_24093'
-      STREET: 6400 Sout
+      LINKID: '23489_23357'
+      STREET: Murray Ta
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: EB
+      DIRECTION: WB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1591
       LN_2015: 1
       LN_2019: 1
       LN_2021: 1
@@ -313,17 +311,17 @@ changes:
       LN23_42UF: 1
       LN23_50UF: 1
       LN23_50UFM: 1
-      FT_2015: 5
-      FT_2019: 5
-      FT_2021: 5
-      FT_2023: 5
-      FT_2028: 5
-      FT23_32: 5
-      FT23_42: 5
-      FT23_50: 5
-      FT23_32UF: 5
-      FT23_42UF: 5
-      FT23_50UF: 5
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -369,12 +367,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: '2142_000.3'
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -387,8 +385,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -399,8 +397,8 @@ changes:
       TRNSPD_FF6: 0.0
       LN27_55RO: 1
       LN27_55CO: 1
-      FT27_55RO: 5
-      FT27_55CO: 5
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -416,24 +414,24 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6025
-      B: 24093
-      DISTANCE: 0.37033
+    - A: 6020
+      B: 23357
+      DISTANCE: 0.19077
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '23902_24093'
-      STREET: 6400 Sout
+      LINKID: '23489_23357'
+      STREET: Murray Ta
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: EB
+      DIRECTION: WB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1591
       LN_2015: 1
       LN_2019: 1
       LN_2021: 1
@@ -446,17 +444,17 @@ changes:
       LN23_42UF: 1
       LN23_50UF: 1
       LN23_50UFM: 1
-      FT_2015: 5
-      FT_2019: 5
-      FT_2021: 5
-      FT_2023: 5
-      FT_2028: 5
-      FT23_32: 5
-      FT23_42: 5
-      FT23_50: 5
-      FT23_32UF: 5
-      FT23_42UF: 5
-      FT23_50UF: 5
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -502,12 +500,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: '2142_000.3'
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -520,8 +518,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -532,8 +530,8 @@ changes:
       TRNSPD_FF6: 0.0
       LN27_55RO: 1
       LN27_55CO: 1
-      FT27_55RO: 5
-      FT27_55CO: 5
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -549,24 +547,24 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 24093
-      B: 6025
-      DISTANCE: 0.37033
+    - A: 99999
+      B: 23591
+      DISTANCE: 0.35367
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '24093_23902'
-      STREET: 6400 Sout
+      LINKID: '6022_23591'
+      STREET: Canal St
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: WB
+      DIRECTION: SB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1591
       LN_2015: 1
       LN_2019: 1
       LN_2021: 1
@@ -635,12 +633,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -653,8 +651,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -682,24 +680,24 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6025
-      B: 23902
-      DISTANCE: 0.35919
+    - A: 23591
+      B: 99999
+      DISTANCE: 0.35367
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '24093_23902'
-      STREET: 6400 Sout
+      LINKID: '23591_6022'
+      STREET: Canal St
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: WB
+      DIRECTION: NB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1591
       LN_2015: 1
       LN_2019: 1
       LN_2021: 1
@@ -768,12 +766,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -786,8 +784,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -815,47 +813,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 23778
-      B: 6028
-      DISTANCE: 0.29821
+    - A: 23423
+      B: 99999
+      DISTANCE: 0.25503
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '23778_23901'
-      STREET: Fort Unio
+      LINKID: '23423_23583'
+      STREET: 700 West
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: EB
+      DIRECTION: NB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 2
-      LN_2019: 2
-      LN_2021: 2
-      LN_2023: 2
-      LN_2028: 2
-      LN23_32: 2
-      LN23_42: 2
-      LN23_50: 2
-      LN23_32UF: 2
-      LN23_42UF: 2
-      LN23_50UF: 2
-      LN23_50UFM: 2
-      FT_2015: 3
-      FT_2019: 3
-      FT_2021: 3
-      FT_2023: 3
-      FT_2028: 3
-      FT23_32: 3
-      FT23_42: 3
-      FT23_50: 3
-      FT23_32UF: 3
-      FT23_42UF: 3
-      FT23_50UF: 3
+      TAZID: 1631
+      LN_2015: 0
+      LN_2019: 0
+      LN_2021: 0
+      LN_2023: 0
+      LN_2028: 0
+      LN23_32: 0
+      LN23_42: 0
+      LN23_50: 0
+      LN23_32UF: 0
+      LN23_42UF: 0
+      LN23_50UF: 0
+      LN23_50UFM: 0
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -900,13 +898,13 @@ changes:
       OP_2021: 0
       OP_2023: 0
       OP_2028: 0
-      OP23_32: 1
-      OP23_42: 1
-      OP23_50: 1
-      OP23_32UF: 1
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2116_002.0'
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -918,9 +916,9 @@ changes:
       SGX23_32UF: ''
       SGX23_42UF: ''
       SGX23_50UF: ''
-      GIS23_32: 32
-      GIS23_42: 32
-      GIS23_50: 32
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -929,10 +927,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 2
-      LN27_55CO: 2
-      FT27_55RO: 3
-      FT27_55CO: 3
+      LN27_55RO: 0
+      LN27_55CO: 0
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -948,47 +946,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6028
-      B: 23901
-      DISTANCE: 0.20418
+    - A: 99999
+      B: 23583
+      DISTANCE: 0.43118
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '23778_23901'
-      STREET: Fort Unio
+      LINKID: '23423_23583'
+      STREET: 700 West
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: EB
+      DIRECTION: NB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 2
-      LN_2019: 2
-      LN_2021: 2
-      LN_2023: 2
-      LN_2028: 2
-      LN23_32: 2
-      LN23_42: 2
-      LN23_50: 2
-      LN23_32UF: 2
-      LN23_42UF: 2
-      LN23_50UF: 2
-      LN23_50UFM: 2
-      FT_2015: 3
-      FT_2019: 3
-      FT_2021: 3
-      FT_2023: 3
-      FT_2028: 3
-      FT23_32: 3
-      FT23_42: 3
-      FT23_50: 3
-      FT23_32UF: 3
-      FT23_42UF: 3
-      FT23_50UF: 3
+      TAZID: 1631
+      LN_2015: 0
+      LN_2019: 0
+      LN_2021: 0
+      LN_2023: 0
+      LN_2028: 0
+      LN23_32: 0
+      LN23_42: 0
+      LN23_50: 0
+      LN23_32UF: 0
+      LN23_42UF: 0
+      LN23_50UF: 0
+      LN23_50UFM: 0
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -1033,13 +1031,13 @@ changes:
       OP_2021: 0
       OP_2023: 0
       OP_2028: 0
-      OP23_32: 1
-      OP23_42: 1
-      OP23_50: 1
-      OP23_32UF: 1
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2116_002.0'
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -1051,9 +1049,9 @@ changes:
       SGX23_32UF: ''
       SGX23_42UF: ''
       SGX23_50UF: ''
-      GIS23_32: 32
-      GIS23_42: 32
-      GIS23_50: 32
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -1062,10 +1060,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 2
-      LN27_55CO: 2
-      FT27_55RO: 3
-      FT27_55CO: 3
+      LN27_55RO: 0
+      LN27_55CO: 0
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -1081,47 +1079,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 23901
-      B: 6028
-      DISTANCE: 0.20418
+    - A: 23583
+      B: 99999
+      DISTANCE: 0.43118
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '23901_23778'
-      STREET: Fort Unio
+      LINKID: '23583_23423'
+      STREET: 700 West
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: WB
+      DIRECTION: SB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 2
-      LN_2019: 2
-      LN_2021: 2
-      LN_2023: 2
-      LN_2028: 2
-      LN23_32: 2
-      LN23_42: 2
-      LN23_50: 2
-      LN23_32UF: 2
-      LN23_42UF: 2
-      LN23_50UF: 2
-      LN23_50UFM: 2
-      FT_2015: 3
-      FT_2019: 3
-      FT_2021: 3
-      FT_2023: 3
-      FT_2028: 3
-      FT23_32: 3
-      FT23_42: 3
-      FT23_50: 3
-      FT23_32UF: 3
-      FT23_42UF: 3
-      FT23_50UF: 3
+      TAZID: 1631
+      LN_2015: 0
+      LN_2019: 0
+      LN_2021: 0
+      LN_2023: 0
+      LN_2028: 0
+      LN23_32: 0
+      LN23_42: 0
+      LN23_50: 0
+      LN23_32UF: 0
+      LN23_42UF: 0
+      LN23_50UF: 0
+      LN23_50UFM: 0
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -1166,13 +1164,13 @@ changes:
       OP_2021: 0
       OP_2023: 0
       OP_2028: 0
-      OP23_32: 1
-      OP23_42: 1
-      OP23_50: 1
-      OP23_32UF: 1
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2116_002.0'
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -1184,9 +1182,9 @@ changes:
       SGX23_32UF: ''
       SGX23_42UF: ''
       SGX23_50UF: ''
-      GIS23_32: 32
-      GIS23_42: 32
-      GIS23_50: 32
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -1195,10 +1193,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 2
-      LN27_55CO: 2
-      FT27_55RO: 3
-      FT27_55CO: 3
+      LN27_55RO: 0
+      LN27_55CO: 0
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -1214,47 +1212,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6028
-      B: 23778
-      DISTANCE: 0.29821
+    - A: 99999
+      B: 23423
+      DISTANCE: 0.25503
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '23901_23778'
-      STREET: Fort Unio
+      LINKID: '23583_23423'
+      STREET: 700 West
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: WB
+      DIRECTION: SB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 2
-      LN_2019: 2
-      LN_2021: 2
-      LN_2023: 2
-      LN_2028: 2
-      LN23_32: 2
-      LN23_42: 2
-      LN23_50: 2
-      LN23_32UF: 2
-      LN23_42UF: 2
-      LN23_50UF: 2
-      LN23_50UFM: 2
-      FT_2015: 3
-      FT_2019: 3
-      FT_2021: 3
-      FT_2023: 3
-      FT_2028: 3
-      FT23_32: 3
-      FT23_42: 3
-      FT23_50: 3
-      FT23_32UF: 3
-      FT23_42UF: 3
-      FT23_50UF: 3
+      TAZID: 1631
+      LN_2015: 0
+      LN_2019: 0
+      LN_2021: 0
+      LN_2023: 0
+      LN_2028: 0
+      LN23_32: 0
+      LN23_42: 0
+      LN23_50: 0
+      LN23_32UF: 0
+      LN23_42UF: 0
+      LN23_50UF: 0
+      LN23_50UFM: 0
+      FT_2015: 4
+      FT_2019: 4
+      FT_2021: 4
+      FT_2023: 4
+      FT_2028: 4
+      FT23_32: 4
+      FT23_42: 4
+      FT23_50: 4
+      FT23_32UF: 4
+      FT23_42UF: 4
+      FT23_50UF: 4
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -1299,13 +1297,13 @@ changes:
       OP_2021: 0
       OP_2023: 0
       OP_2028: 0
-      OP23_32: 1
-      OP23_42: 1
-      OP23_50: 1
-      OP23_32UF: 1
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2116_002.0'
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -1317,9 +1315,9 @@ changes:
       SGX23_32UF: ''
       SGX23_42UF: ''
       SGX23_50UF: ''
-      GIS23_32: 32
-      GIS23_42: 32
-      GIS23_50: 32
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -1328,10 +1326,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 2
-      LN27_55CO: 2
-      FT27_55RO: 3
-      FT27_55CO: 3
+      LN27_55RO: 0
+      LN27_55CO: 0
+      FT27_55RO: 4
+      FT27_55CO: 4
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -1347,412 +1345,13 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6029
-      B: 6030
-      DISTANCE: 0.1011
+    - A: 6020
+      B: 6021
+      DISTANCE: 0.2104
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '6029_6030'
-      STREET: Cent
-      HOTZN: 0
-      SEL_LINK: 0
-      ONEWAY: 0
-      DIRECTION: EB
-      SFAC_BASE: 0.0
-      SFAC_FUT: 0.0
-      CFAC_BASE: 0.0
-      CFAC_FUT: 0.0
-      TRKRST2015: 0
-      TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 7
-      LN_2019: 7
-      LN_2021: 7
-      LN_2023: 7
-      LN_2028: 7
-      LN23_32: 7
-      LN23_42: 7
-      LN23_50: 7
-      LN23_32UF: 7
-      LN23_42UF: 7
-      LN23_50UF: 7
-      LN23_50UFM: 7
-      FT_2015: 1
-      FT_2019: 1
-      FT_2021: 1
-      FT_2023: 1
-      FT_2028: 1
-      FT23_32: 1
-      FT23_42: 1
-      FT23_50: 1
-      FT23_32UF: 1
-      FT23_42UF: 1
-      FT23_50UF: 1
-      TSPD_2015: 0
-      TSPD_2019: 0
-      TSPD_2021: 0
-      TSPD_2023: 0.0
-      TSPD_2028: 0.0
-      TSPD23_32: 0.0
-      TSPD23_42: 0.0
-      TSPD23_50: 0.0
-      TSPD23_32U: 0.0
-      TSPD23_42U: 0.0
-      TSPD23_50U: 0.0
-      TSPD_AVE: 0
-      TRNSPD_PTC: 0
-      TRNSPD_MIS: 0
-      TRNSPD_MED: 0
-      TRNSPD_HIG: 0
-      TRNSPD_HII: 0
-      HOT_2015: 0
-      HOT_2019: 0
-      HOT_2021: 0
-      HOT_2023: 0
-      HOT_2028: 0
-      HOT23_32: 0
-      HOT23_42: 0
-      HOT23_50: 0
-      HOT23_32UF: 0
-      HOT23_42UF: 0
-      HOT23_50UF: 0
-      REL_2015: 0
-      REL_2019: 0
-      REL_2021: 0
-      REL_2023: 0
-      REL_2028: 0
-      REL23_32: 0
-      REL23_42: 0
-      REL23_50: 0
-      REL23_32UF: 0
-      REL23_42UF: 0
-      REL23_50UF: 0
-      OP_2015: 0
-      OP_2019: 0
-      OP_2021: 0
-      OP_2023: 0
-      OP_2028: 0
-      OP23_32: 0
-      OP23_42: 0
-      OP23_50: 0
-      OP23_32UF: 0
-      OP23_42UF: 0
-      OP23_50UF: 0
-      SEGID: ''
-      SGX_2015: ''
-      SGX_2019: ''
-      SGX_2021: ''
-      SGX_2023: ''
-      SGX_2028: ''
-      SGX23_32: ''
-      SGX23_42: ''
-      SGX23_50: ''
-      SGX23_32UF: ''
-      SGX23_42UF: ''
-      SGX23_50UF: ''
-      GIS23_32: 0
-      GIS23_42: 0
-      GIS23_50: 0
-      MAG_LINK: 0
-      WFRC_LINK: 1
-      TRNSPD_FF1: 0.0
-      TRNSPD_FF2: 0.0
-      TRNSPD_FF3: 0.0
-      TRNSPD_FF4: 0.0
-      TRNSPD_FF5: 0.0
-      TRNSPD_FF6: 0.0
-      LN27_55RO: 7
-      LN27_55CO: 7
-      FT27_55RO: 1
-      FT27_55CO: 1
-      TSPD27_55R: 0.0
-      TSPD27_55C: 0.0
-      HOT27_55RO: 0
-      HOT27_55CO: 0
-      REL27_55RO: 0
-      REL27_55CO: 0
-      FLAG_RO: 0
-      FLAG_CO: 0
-      model_link_id: 57821
-      lanes: 0
-      drive_access: 1
-      walk_access: 1
-      bike_access: 1
-      name: unknown
-      roadway: road
-    - A: 6030
-      B: 6029
-      DISTANCE: 0.1011
-      DISTEXCEPT: 0
-      EXTERNAL: 0
-      LINKID: '6030_6029'
-      STREET: Cent
-      HOTZN: 0
-      SEL_LINK: 0
-      ONEWAY: 0
-      DIRECTION: WB
-      SFAC_BASE: 0.0
-      SFAC_FUT: 0.0
-      CFAC_BASE: 0.0
-      CFAC_FUT: 0.0
-      TRKRST2015: 0
-      TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 7
-      LN_2019: 7
-      LN_2021: 7
-      LN_2023: 7
-      LN_2028: 7
-      LN23_32: 7
-      LN23_42: 7
-      LN23_50: 7
-      LN23_32UF: 7
-      LN23_42UF: 7
-      LN23_50UF: 7
-      LN23_50UFM: 7
-      FT_2015: 1
-      FT_2019: 1
-      FT_2021: 1
-      FT_2023: 1
-      FT_2028: 1
-      FT23_32: 1
-      FT23_42: 1
-      FT23_50: 1
-      FT23_32UF: 1
-      FT23_42UF: 1
-      FT23_50UF: 1
-      TSPD_2015: 0
-      TSPD_2019: 0
-      TSPD_2021: 0
-      TSPD_2023: 0.0
-      TSPD_2028: 0.0
-      TSPD23_32: 0.0
-      TSPD23_42: 0.0
-      TSPD23_50: 0.0
-      TSPD23_32U: 0.0
-      TSPD23_42U: 0.0
-      TSPD23_50U: 0.0
-      TSPD_AVE: 0
-      TRNSPD_PTC: 0
-      TRNSPD_MIS: 0
-      TRNSPD_MED: 0
-      TRNSPD_HIG: 0
-      TRNSPD_HII: 0
-      HOT_2015: 0
-      HOT_2019: 0
-      HOT_2021: 0
-      HOT_2023: 0
-      HOT_2028: 0
-      HOT23_32: 0
-      HOT23_42: 0
-      HOT23_50: 0
-      HOT23_32UF: 0
-      HOT23_42UF: 0
-      HOT23_50UF: 0
-      REL_2015: 0
-      REL_2019: 0
-      REL_2021: 0
-      REL_2023: 0
-      REL_2028: 0
-      REL23_32: 0
-      REL23_42: 0
-      REL23_50: 0
-      REL23_32UF: 0
-      REL23_42UF: 0
-      REL23_50UF: 0
-      OP_2015: 0
-      OP_2019: 0
-      OP_2021: 0
-      OP_2023: 0
-      OP_2028: 0
-      OP23_32: 0
-      OP23_42: 0
-      OP23_50: 0
-      OP23_32UF: 0
-      OP23_42UF: 0
-      OP23_50UF: 0
-      SEGID: ''
-      SGX_2015: ''
-      SGX_2019: ''
-      SGX_2021: ''
-      SGX_2023: ''
-      SGX_2028: ''
-      SGX23_32: ''
-      SGX23_42: ''
-      SGX23_50: ''
-      SGX23_32UF: ''
-      SGX23_42UF: ''
-      SGX23_50UF: ''
-      GIS23_32: 0
-      GIS23_42: 0
-      GIS23_50: 0
-      MAG_LINK: 0
-      WFRC_LINK: 1
-      TRNSPD_FF1: 0.0
-      TRNSPD_FF2: 0.0
-      TRNSPD_FF3: 0.0
-      TRNSPD_FF4: 0.0
-      TRNSPD_FF5: 0.0
-      TRNSPD_FF6: 0.0
-      LN27_55RO: 7
-      LN27_55CO: 7
-      FT27_55RO: 1
-      FT27_55CO: 1
-      TSPD27_55R: 0.0
-      TSPD27_55C: 0.0
-      HOT27_55RO: 0
-      HOT27_55CO: 0
-      REL27_55RO: 0
-      REL27_55CO: 0
-      FLAG_RO: 0
-      FLAG_CO: 0
-      model_link_id: 57822
-      lanes: 0
-      drive_access: 1
-      walk_access: 1
-      bike_access: 1
-      name: unknown
-      roadway: road
-    - A: 6029
-      B: 23778
-      DISTANCE: 0.215
-      DISTEXCEPT: 0
-      EXTERNAL: 0
-      LINKID: '6029_23778'
-      STREET: Cent
-      HOTZN: 0
-      SEL_LINK: 0
-      ONEWAY: 0
-      DIRECTION: SB
-      SFAC_BASE: 0.0
-      SFAC_FUT: 0.0
-      CFAC_BASE: 0.0
-      CFAC_FUT: 0.0
-      TRKRST2015: 0
-      TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 7
-      LN_2019: 7
-      LN_2021: 7
-      LN_2023: 7
-      LN_2028: 7
-      LN23_32: 7
-      LN23_42: 7
-      LN23_50: 7
-      LN23_32UF: 7
-      LN23_42UF: 7
-      LN23_50UF: 7
-      LN23_50UFM: 7
-      FT_2015: 1
-      FT_2019: 1
-      FT_2021: 1
-      FT_2023: 1
-      FT_2028: 1
-      FT23_32: 1
-      FT23_42: 1
-      FT23_50: 1
-      FT23_32UF: 1
-      FT23_42UF: 1
-      FT23_50UF: 1
-      TSPD_2015: 0
-      TSPD_2019: 0
-      TSPD_2021: 0
-      TSPD_2023: 0.0
-      TSPD_2028: 0.0
-      TSPD23_32: 0.0
-      TSPD23_42: 0.0
-      TSPD23_50: 0.0
-      TSPD23_32U: 0.0
-      TSPD23_42U: 0.0
-      TSPD23_50U: 0.0
-      TSPD_AVE: 0
-      TRNSPD_PTC: 0
-      TRNSPD_MIS: 0
-      TRNSPD_MED: 0
-      TRNSPD_HIG: 0
-      TRNSPD_HII: 0
-      HOT_2015: 0
-      HOT_2019: 0
-      HOT_2021: 0
-      HOT_2023: 0
-      HOT_2028: 0
-      HOT23_32: 0
-      HOT23_42: 0
-      HOT23_50: 0
-      HOT23_32UF: 0
-      HOT23_42UF: 0
-      HOT23_50UF: 0
-      REL_2015: 0
-      REL_2019: 0
-      REL_2021: 0
-      REL_2023: 0
-      REL_2028: 0
-      REL23_32: 0
-      REL23_42: 0
-      REL23_50: 0
-      REL23_32UF: 0
-      REL23_42UF: 0
-      REL23_50UF: 0
-      OP_2015: 0
-      OP_2019: 0
-      OP_2021: 0
-      OP_2023: 0
-      OP_2028: 0
-      OP23_32: 0
-      OP23_42: 0
-      OP23_50: 0
-      OP23_32UF: 0
-      OP23_42UF: 0
-      OP23_50UF: 0
-      SEGID: ''
-      SGX_2015: ''
-      SGX_2019: ''
-      SGX_2021: ''
-      SGX_2023: ''
-      SGX_2028: ''
-      SGX23_32: ''
-      SGX23_42: ''
-      SGX23_50: ''
-      SGX23_32UF: ''
-      SGX23_42UF: ''
-      SGX23_50UF: ''
-      GIS23_32: 0
-      GIS23_42: 0
-      GIS23_50: 0
-      MAG_LINK: 0
-      WFRC_LINK: 1
-      TRNSPD_FF1: 0.0
-      TRNSPD_FF2: 0.0
-      TRNSPD_FF3: 0.0
-      TRNSPD_FF4: 0.0
-      TRNSPD_FF5: 0.0
-      TRNSPD_FF6: 0.0
-      LN27_55RO: 7
-      LN27_55CO: 7
-      FT27_55RO: 1
-      FT27_55CO: 1
-      TSPD27_55R: 0.0
-      TSPD27_55C: 0.0
-      HOT27_55RO: 0
-      HOT27_55CO: 0
-      REL27_55RO: 0
-      REL27_55CO: 0
-      FLAG_RO: 0
-      FLAG_CO: 0
-      model_link_id: 57823
-      lanes: 0
-      drive_access: 1
-      walk_access: 1
-      bike_access: 1
-      name: unknown
-      roadway: road
-    - A: 23778
-      B: 6029
-      DISTANCE: 0.215
-      DISTEXCEPT: 0
-      EXTERNAL: 0
-      LINKID: '23778_6029'
-      STREET: Cent
+      LINKID: '6020_6021'
+      STREET: Canal St
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
@@ -1763,140 +1362,7 @@ changes:
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1823
-      LN_2015: 7
-      LN_2019: 7
-      LN_2021: 7
-      LN_2023: 7
-      LN_2028: 7
-      LN23_32: 7
-      LN23_42: 7
-      LN23_50: 7
-      LN23_32UF: 7
-      LN23_42UF: 7
-      LN23_50UF: 7
-      LN23_50UFM: 7
-      FT_2015: 1
-      FT_2019: 1
-      FT_2021: 1
-      FT_2023: 1
-      FT_2028: 1
-      FT23_32: 1
-      FT23_42: 1
-      FT23_50: 1
-      FT23_32UF: 1
-      FT23_42UF: 1
-      FT23_50UF: 1
-      TSPD_2015: 0
-      TSPD_2019: 0
-      TSPD_2021: 0
-      TSPD_2023: 0.0
-      TSPD_2028: 0.0
-      TSPD23_32: 0.0
-      TSPD23_42: 0.0
-      TSPD23_50: 0.0
-      TSPD23_32U: 0.0
-      TSPD23_42U: 0.0
-      TSPD23_50U: 0.0
-      TSPD_AVE: 0
-      TRNSPD_PTC: 0
-      TRNSPD_MIS: 0
-      TRNSPD_MED: 0
-      TRNSPD_HIG: 0
-      TRNSPD_HII: 0
-      HOT_2015: 0
-      HOT_2019: 0
-      HOT_2021: 0
-      HOT_2023: 0
-      HOT_2028: 0
-      HOT23_32: 0
-      HOT23_42: 0
-      HOT23_50: 0
-      HOT23_32UF: 0
-      HOT23_42UF: 0
-      HOT23_50UF: 0
-      REL_2015: 0
-      REL_2019: 0
-      REL_2021: 0
-      REL_2023: 0
-      REL_2028: 0
-      REL23_32: 0
-      REL23_42: 0
-      REL23_50: 0
-      REL23_32UF: 0
-      REL23_42UF: 0
-      REL23_50UF: 0
-      OP_2015: 0
-      OP_2019: 0
-      OP_2021: 0
-      OP_2023: 0
-      OP_2028: 0
-      OP23_32: 0
-      OP23_42: 0
-      OP23_50: 0
-      OP23_32UF: 0
-      OP23_42UF: 0
-      OP23_50UF: 0
-      SEGID: ''
-      SGX_2015: ''
-      SGX_2019: ''
-      SGX_2021: ''
-      SGX_2023: ''
-      SGX_2028: ''
-      SGX23_32: ''
-      SGX23_42: ''
-      SGX23_50: ''
-      SGX23_32UF: ''
-      SGX23_42UF: ''
-      SGX23_50UF: ''
-      GIS23_32: 0
-      GIS23_42: 0
-      GIS23_50: 0
-      MAG_LINK: 0
-      WFRC_LINK: 1
-      TRNSPD_FF1: 0.0
-      TRNSPD_FF2: 0.0
-      TRNSPD_FF3: 0.0
-      TRNSPD_FF4: 0.0
-      TRNSPD_FF5: 0.0
-      TRNSPD_FF6: 0.0
-      LN27_55RO: 7
-      LN27_55CO: 7
-      FT27_55RO: 1
-      FT27_55CO: 1
-      TSPD27_55R: 0.0
-      TSPD27_55C: 0.0
-      HOT27_55RO: 0
-      HOT27_55CO: 0
-      REL27_55RO: 0
-      REL27_55CO: 0
-      FLAG_RO: 0
-      FLAG_CO: 0
-      model_link_id: 57824
-      lanes: 0
-      drive_access: 1
-      walk_access: 1
-      bike_access: 1
-      name: unknown
-      roadway: road
-    - A: 6025
-      B: 6026
-      DISTANCE: 0.2077
-      DISTEXCEPT: 0
-      EXTERNAL: 0
-      LINKID: '6025_6026'
-      STREET: 6400 Sout
-      HOTZN: 0
-      SEL_LINK: 0
-      ONEWAY: 0
-      DIRECTION: EB
-      SFAC_BASE: 0.0
-      SFAC_FUT: 0.0
-      CFAC_BASE: 0.0
-      CFAC_FUT: 0.0
-      TRKRST2015: 0
-      TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1591
       LN_2015: 1
       LN_2019: 1
       LN_2021: 1
@@ -1965,12 +1431,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -1983,8 +1449,540 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
+      MAG_LINK: 0
+      WFRC_LINK: 1
+      TRNSPD_FF1: 0.0
+      TRNSPD_FF2: 0.0
+      TRNSPD_FF3: 0.0
+      TRNSPD_FF4: 0.0
+      TRNSPD_FF5: 0.0
+      TRNSPD_FF6: 0.0
+      LN27_55RO: 1
+      LN27_55CO: 1
+      FT27_55RO: 5
+      FT27_55CO: 5
+      TSPD27_55R: 0.0
+      TSPD27_55C: 0.0
+      HOT27_55RO: 0
+      HOT27_55CO: 0
+      REL27_55RO: 0
+      REL27_55CO: 0
+      FLAG_RO: 0
+      FLAG_CO: 0
+      model_link_id: 57821
+      lanes: 0
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      name: unknown
+      roadway: road
+    - A: 6021
+      B: 6020
+      DISTANCE: 0.2104
+      DISTEXCEPT: 0
+      EXTERNAL: 0
+      LINKID: '6021_6020'
+      STREET: Canal St
+      HOTZN: 0
+      SEL_LINK: 0
+      ONEWAY: 0
+      DIRECTION: SB
+      SFAC_BASE: 0.0
+      SFAC_FUT: 0.0
+      CFAC_BASE: 0.0
+      CFAC_FUT: 0.0
+      TRKRST2015: 0
+      TRKRST2023: 0
+      TAZID: 1591
+      LN_2015: 1
+      LN_2019: 1
+      LN_2021: 1
+      LN_2023: 1
+      LN_2028: 1
+      LN23_32: 1
+      LN23_42: 1
+      LN23_50: 1
+      LN23_32UF: 1
+      LN23_42UF: 1
+      LN23_50UF: 1
+      LN23_50UFM: 1
+      FT_2015: 5
+      FT_2019: 5
+      FT_2021: 5
+      FT_2023: 5
+      FT_2028: 5
+      FT23_32: 5
+      FT23_42: 5
+      FT23_50: 5
+      FT23_32UF: 5
+      FT23_42UF: 5
+      FT23_50UF: 5
+      TSPD_2015: 0
+      TSPD_2019: 0
+      TSPD_2021: 0
+      TSPD_2023: 0.0
+      TSPD_2028: 0.0
+      TSPD23_32: 0.0
+      TSPD23_42: 0.0
+      TSPD23_50: 0.0
+      TSPD23_32U: 0.0
+      TSPD23_42U: 0.0
+      TSPD23_50U: 0.0
+      TSPD_AVE: 0
+      TRNSPD_PTC: 0
+      TRNSPD_MIS: 0
+      TRNSPD_MED: 0
+      TRNSPD_HIG: 0
+      TRNSPD_HII: 0
+      HOT_2015: 0
+      HOT_2019: 0
+      HOT_2021: 0
+      HOT_2023: 0
+      HOT_2028: 0
+      HOT23_32: 0
+      HOT23_42: 0
+      HOT23_50: 0
+      HOT23_32UF: 0
+      HOT23_42UF: 0
+      HOT23_50UF: 0
+      REL_2015: 0
+      REL_2019: 0
+      REL_2021: 0
+      REL_2023: 0
+      REL_2028: 0
+      REL23_32: 0
+      REL23_42: 0
+      REL23_50: 0
+      REL23_32UF: 0
+      REL23_42UF: 0
+      REL23_50UF: 0
+      OP_2015: 0
+      OP_2019: 0
+      OP_2021: 0
+      OP_2023: 0
+      OP_2028: 0
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
+      SGX_2015: ''
+      SGX_2019: ''
+      SGX_2021: ''
+      SGX_2023: ''
+      SGX_2028: ''
+      SGX23_32: ''
+      SGX23_42: ''
+      SGX23_50: ''
+      SGX23_32UF: ''
+      SGX23_42UF: ''
+      SGX23_50UF: ''
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
+      MAG_LINK: 0
+      WFRC_LINK: 1
+      TRNSPD_FF1: 0.0
+      TRNSPD_FF2: 0.0
+      TRNSPD_FF3: 0.0
+      TRNSPD_FF4: 0.0
+      TRNSPD_FF5: 0.0
+      TRNSPD_FF6: 0.0
+      LN27_55RO: 1
+      LN27_55CO: 1
+      FT27_55RO: 5
+      FT27_55CO: 5
+      TSPD27_55R: 0.0
+      TSPD27_55C: 0.0
+      HOT27_55RO: 0
+      HOT27_55CO: 0
+      REL27_55RO: 0
+      REL27_55CO: 0
+      FLAG_RO: 0
+      FLAG_CO: 0
+      model_link_id: 57822
+      lanes: 0
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      name: unknown
+      roadway: road
+    - A: 6022
+      B: 6023
+      DISTANCE: 0.1734
+      DISTEXCEPT: 0
+      EXTERNAL: 0
+      LINKID: '6022_6023'
+      STREET: Canal St
+      HOTZN: 0
+      SEL_LINK: 0
+      ONEWAY: 0
+      DIRECTION: SB
+      SFAC_BASE: 0.0
+      SFAC_FUT: 0.0
+      CFAC_BASE: 0.0
+      CFAC_FUT: 0.0
+      TRKRST2015: 0
+      TRKRST2023: 0
+      TAZID: 1591
+      LN_2015: 0
+      LN_2019: 0
+      LN_2021: 0
+      LN_2023: 0
+      LN_2028: 0
+      LN23_32: 0
+      LN23_42: 1
+      LN23_50: 1
+      LN23_32UF: 1
+      LN23_42UF: 1
+      LN23_50UF: 1
+      LN23_50UFM: 1
+      FT_2015: 0
+      FT_2019: 0
+      FT_2021: 0
+      FT_2023: 0
+      FT_2028: 0
+      FT23_32: 0
+      FT23_42: 5
+      FT23_50: 5
+      FT23_32UF: 5
+      FT23_42UF: 5
+      FT23_50UF: 5
+      TSPD_2015: 0
+      TSPD_2019: 0
+      TSPD_2021: 0
+      TSPD_2023: 0.0
+      TSPD_2028: 0.0
+      TSPD23_32: 0.0
+      TSPD23_42: 0.0
+      TSPD23_50: 0.0
+      TSPD23_32U: 0.0
+      TSPD23_42U: 0.0
+      TSPD23_50U: 0.0
+      TSPD_AVE: 0
+      TRNSPD_PTC: 0
+      TRNSPD_MIS: 0
+      TRNSPD_MED: 0
+      TRNSPD_HIG: 0
+      TRNSPD_HII: 0
+      HOT_2015: 0
+      HOT_2019: 0
+      HOT_2021: 0
+      HOT_2023: 0
+      HOT_2028: 0
+      HOT23_32: 0
+      HOT23_42: 0
+      HOT23_50: 0
+      HOT23_32UF: 0
+      HOT23_42UF: 0
+      HOT23_50UF: 0
+      REL_2015: 0
+      REL_2019: 0
+      REL_2021: 0
+      REL_2023: 0
+      REL_2028: 0
+      REL23_32: 0
+      REL23_42: 0
+      REL23_50: 0
+      REL23_32UF: 0
+      REL23_42UF: 0
+      REL23_50UF: 0
+      OP_2015: 0
+      OP_2019: 0
+      OP_2021: 0
+      OP_2023: 0
+      OP_2028: 0
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
+      SGX_2015: ''
+      SGX_2019: ''
+      SGX_2021: ''
+      SGX_2023: ''
+      SGX_2028: ''
+      SGX23_32: ''
+      SGX23_42: ''
+      SGX23_50: ''
+      SGX23_32UF: ''
+      SGX23_42UF: ''
+      SGX23_50UF: ''
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
+      MAG_LINK: 0
+      WFRC_LINK: 1
+      TRNSPD_FF1: 0.0
+      TRNSPD_FF2: 0.0
+      TRNSPD_FF3: 0.0
+      TRNSPD_FF4: 0.0
+      TRNSPD_FF5: 0.0
+      TRNSPD_FF6: 0.0
+      LN27_55RO: 1
+      LN27_55CO: 1
+      FT27_55RO: 5
+      FT27_55CO: 5
+      TSPD27_55R: 0.0
+      TSPD27_55C: 0.0
+      HOT27_55RO: 0
+      HOT27_55CO: 0
+      REL27_55RO: 0
+      REL27_55CO: 0
+      FLAG_RO: 0
+      FLAG_CO: 0
+      model_link_id: 57823
+      lanes: 0
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      name: unknown
+      roadway: road
+    - A: 6023
+      B: 6022
+      DISTANCE: 0.1734
+      DISTEXCEPT: 0
+      EXTERNAL: 0
+      LINKID: '6023_6022'
+      STREET: Canal St
+      HOTZN: 0
+      SEL_LINK: 0
+      ONEWAY: 0
+      DIRECTION: NB
+      SFAC_BASE: 0.0
+      SFAC_FUT: 0.0
+      CFAC_BASE: 0.0
+      CFAC_FUT: 0.0
+      TRKRST2015: 0
+      TRKRST2023: 0
+      TAZID: 1591
+      LN_2015: 0
+      LN_2019: 0
+      LN_2021: 0
+      LN_2023: 0
+      LN_2028: 0
+      LN23_32: 0
+      LN23_42: 1
+      LN23_50: 1
+      LN23_32UF: 1
+      LN23_42UF: 1
+      LN23_50UF: 1
+      LN23_50UFM: 1
+      FT_2015: 0
+      FT_2019: 0
+      FT_2021: 0
+      FT_2023: 0
+      FT_2028: 0
+      FT23_32: 0
+      FT23_42: 5
+      FT23_50: 5
+      FT23_32UF: 5
+      FT23_42UF: 5
+      FT23_50UF: 5
+      TSPD_2015: 0
+      TSPD_2019: 0
+      TSPD_2021: 0
+      TSPD_2023: 0.0
+      TSPD_2028: 0.0
+      TSPD23_32: 0.0
+      TSPD23_42: 0.0
+      TSPD23_50: 0.0
+      TSPD23_32U: 0.0
+      TSPD23_42U: 0.0
+      TSPD23_50U: 0.0
+      TSPD_AVE: 0
+      TRNSPD_PTC: 0
+      TRNSPD_MIS: 0
+      TRNSPD_MED: 0
+      TRNSPD_HIG: 0
+      TRNSPD_HII: 0
+      HOT_2015: 0
+      HOT_2019: 0
+      HOT_2021: 0
+      HOT_2023: 0
+      HOT_2028: 0
+      HOT23_32: 0
+      HOT23_42: 0
+      HOT23_50: 0
+      HOT23_32UF: 0
+      HOT23_42UF: 0
+      HOT23_50UF: 0
+      REL_2015: 0
+      REL_2019: 0
+      REL_2021: 0
+      REL_2023: 0
+      REL_2028: 0
+      REL23_32: 0
+      REL23_42: 0
+      REL23_50: 0
+      REL23_32UF: 0
+      REL23_42UF: 0
+      REL23_50UF: 0
+      OP_2015: 0
+      OP_2019: 0
+      OP_2021: 0
+      OP_2023: 0
+      OP_2028: 0
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
+      SGX_2015: ''
+      SGX_2019: ''
+      SGX_2021: ''
+      SGX_2023: ''
+      SGX_2028: ''
+      SGX23_32: ''
+      SGX23_42: ''
+      SGX23_50: ''
+      SGX23_32UF: ''
+      SGX23_42UF: ''
+      SGX23_50UF: ''
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
+      MAG_LINK: 0
+      WFRC_LINK: 1
+      TRNSPD_FF1: 0.0
+      TRNSPD_FF2: 0.0
+      TRNSPD_FF3: 0.0
+      TRNSPD_FF4: 0.0
+      TRNSPD_FF5: 0.0
+      TRNSPD_FF6: 0.0
+      LN27_55RO: 1
+      LN27_55CO: 1
+      FT27_55RO: 5
+      FT27_55CO: 5
+      TSPD27_55R: 0.0
+      TSPD27_55C: 0.0
+      HOT27_55RO: 0
+      HOT27_55CO: 0
+      REL27_55RO: 0
+      REL27_55CO: 0
+      FLAG_RO: 0
+      FLAG_CO: 0
+      model_link_id: 57824
+      lanes: 0
+      drive_access: 1
+      walk_access: 1
+      bike_access: 1
+      name: unknown
+      roadway: road
+    - A: 6022
+      B: 99999
+      DISTANCE: 0.1088
+      DISTEXCEPT: 0
+      EXTERNAL: 0
+      LINKID: '6022_23591'
+      STREET: Canal St
+      HOTZN: 0
+      SEL_LINK: 0
+      ONEWAY: 0
+      DIRECTION: SB
+      SFAC_BASE: 0.0
+      SFAC_FUT: 0.0
+      CFAC_BASE: 0.0
+      CFAC_FUT: 0.0
+      TRKRST2015: 0
+      TRKRST2023: 0
+      TAZID: 1591
+      LN_2015: 1
+      LN_2019: 1
+      LN_2021: 1
+      LN_2023: 1
+      LN_2028: 1
+      LN23_32: 1
+      LN23_42: 1
+      LN23_50: 1
+      LN23_32UF: 1
+      LN23_42UF: 1
+      LN23_50UF: 1
+      LN23_50UFM: 1
+      FT_2015: 5
+      FT_2019: 5
+      FT_2021: 5
+      FT_2023: 5
+      FT_2028: 5
+      FT23_32: 5
+      FT23_42: 5
+      FT23_50: 5
+      FT23_32UF: 5
+      FT23_42UF: 5
+      FT23_50UF: 5
+      TSPD_2015: 0
+      TSPD_2019: 0
+      TSPD_2021: 0
+      TSPD_2023: 0.0
+      TSPD_2028: 0.0
+      TSPD23_32: 0.0
+      TSPD23_42: 0.0
+      TSPD23_50: 0.0
+      TSPD23_32U: 0.0
+      TSPD23_42U: 0.0
+      TSPD23_50U: 0.0
+      TSPD_AVE: 0
+      TRNSPD_PTC: 0
+      TRNSPD_MIS: 0
+      TRNSPD_MED: 0
+      TRNSPD_HIG: 0
+      TRNSPD_HII: 0
+      HOT_2015: 0
+      HOT_2019: 0
+      HOT_2021: 0
+      HOT_2023: 0
+      HOT_2028: 0
+      HOT23_32: 0
+      HOT23_42: 0
+      HOT23_50: 0
+      HOT23_32UF: 0
+      HOT23_42UF: 0
+      HOT23_50UF: 0
+      REL_2015: 0
+      REL_2019: 0
+      REL_2021: 0
+      REL_2023: 0
+      REL_2028: 0
+      REL23_32: 0
+      REL23_42: 0
+      REL23_50: 0
+      REL23_32UF: 0
+      REL23_42UF: 0
+      REL23_50UF: 0
+      OP_2015: 0
+      OP_2019: 0
+      OP_2021: 0
+      OP_2023: 0
+      OP_2028: 0
+      OP23_32: 0
+      OP23_42: 0
+      OP23_50: 0
+      OP23_32UF: 0
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
+      SGX_2015: ''
+      SGX_2019: ''
+      SGX_2021: ''
+      SGX_2023: ''
+      SGX_2028: ''
+      SGX23_32: ''
+      SGX23_42: ''
+      SGX23_50: ''
+      SGX23_32UF: ''
+      SGX23_42UF: ''
+      SGX23_50UF: ''
+      GIS23_32: 0
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -2012,24 +2010,24 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6026
-      B: 6025
-      DISTANCE: 0.2077
+    - A: 99999
+      B: 6022
+      DISTANCE: 0.1088
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '6026_6025'
-      STREET: 6400 Sout
+      LINKID: '23591_6022'
+      STREET: Canal St
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: WB
+      DIRECTION: NB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1591
       LN_2015: 1
       LN_2019: 1
       LN_2021: 1
@@ -2098,12 +2096,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: WFRC_8480
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -2116,8 +2114,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -2145,47 +2143,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6027
-      B: 6030
-      DISTANCE: 0.10657
+    - A: 1591
+      B: 6021
+      DISTANCE: 0.23774
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '6027_6028'
-      STREET: 6400 Sout
+      LINKID: '1591_23357'
+      STREET: Cent
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: EB
+      DIRECTION: NB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
-      LN_2015: 1
-      LN_2019: 1
-      LN_2021: 1
-      LN_2023: 1
-      LN_2028: 1
-      LN23_32: 1
-      LN23_42: 1
-      LN23_50: 1
-      LN23_32UF: 1
-      LN23_42UF: 1
-      LN23_50UF: 1
-      LN23_50UFM: 1
-      FT_2015: 5
-      FT_2019: 5
-      FT_2021: 5
-      FT_2023: 5
-      FT_2028: 5
-      FT23_32: 5
-      FT23_42: 5
-      FT23_50: 5
-      FT23_32UF: 5
-      FT23_42UF: 5
-      FT23_50UF: 5
+      TAZID: 1591
+      LN_2015: 7
+      LN_2019: 7
+      LN_2021: 7
+      LN_2023: 7
+      LN_2028: 7
+      LN23_32: 7
+      LN23_42: 7
+      LN23_50: 7
+      LN23_32UF: 7
+      LN23_42UF: 7
+      LN23_50UF: 7
+      LN23_50UFM: 7
+      FT_2015: 1
+      FT_2019: 1
+      FT_2021: 1
+      FT_2023: 1
+      FT_2028: 1
+      FT23_32: 1
+      FT23_42: 1
+      FT23_50: 1
+      FT23_32UF: 1
+      FT23_42UF: 1
+      FT23_50UF: 1
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -2231,12 +2229,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -2249,8 +2247,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -2259,10 +2257,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 1
-      LN27_55CO: 1
-      FT27_55RO: 5
-      FT27_55CO: 5
+      LN27_55RO: 7
+      LN27_55CO: 7
+      FT27_55RO: 1
+      FT27_55CO: 1
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -2278,47 +2276,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6030
-      B: 6028
-      DISTANCE: 0.27353
+    - A: 6021
+      B: 1591
+      DISTANCE: 0.23774
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '6027_6028'
-      STREET: 6400 Sout
+      LINKID: '23357_1591'
+      STREET: Cent
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: EB
+      DIRECTION: SB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
-      LN_2015: 1
-      LN_2019: 1
-      LN_2021: 1
-      LN_2023: 1
-      LN_2028: 1
-      LN23_32: 1
-      LN23_42: 1
-      LN23_50: 1
-      LN23_32UF: 1
-      LN23_42UF: 1
-      LN23_50UF: 1
-      LN23_50UFM: 1
-      FT_2015: 5
-      FT_2019: 5
-      FT_2021: 5
-      FT_2023: 5
-      FT_2028: 5
-      FT23_32: 5
-      FT23_42: 5
-      FT23_50: 5
-      FT23_32UF: 5
-      FT23_42UF: 5
-      FT23_50UF: 5
+      TAZID: 1591
+      LN_2015: 7
+      LN_2019: 7
+      LN_2021: 7
+      LN_2023: 7
+      LN_2028: 7
+      LN23_32: 7
+      LN23_42: 7
+      LN23_50: 7
+      LN23_32UF: 7
+      LN23_42UF: 7
+      LN23_50UF: 7
+      LN23_50UFM: 7
+      FT_2015: 1
+      FT_2019: 1
+      FT_2021: 1
+      FT_2023: 1
+      FT_2028: 1
+      FT23_32: 1
+      FT23_42: 1
+      FT23_50: 1
+      FT23_32UF: 1
+      FT23_42UF: 1
+      FT23_50UF: 1
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -2364,12 +2362,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -2382,8 +2380,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -2392,10 +2390,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 1
-      LN27_55CO: 1
-      FT27_55RO: 5
-      FT27_55CO: 5
+      LN27_55RO: 7
+      LN27_55CO: 7
+      FT27_55RO: 1
+      FT27_55CO: 1
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -2411,13 +2409,13 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6028
-      B: 6030
-      DISTANCE: 0.27353
+    - A: 1631
+      B: 6022
+      DISTANCE: 0.14848
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '6028_6027'
-      STREET: 6400 Sout
+      LINKID: '1631_23216'
+      STREET: Cent
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
@@ -2428,30 +2426,30 @@ changes:
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
-      LN_2015: 1
-      LN_2019: 1
-      LN_2021: 1
-      LN_2023: 1
-      LN_2028: 1
-      LN23_32: 1
-      LN23_42: 1
-      LN23_50: 1
-      LN23_32UF: 1
-      LN23_42UF: 1
-      LN23_50UF: 1
-      LN23_50UFM: 1
-      FT_2015: 5
-      FT_2019: 5
-      FT_2021: 5
-      FT_2023: 5
-      FT_2028: 5
-      FT23_32: 5
-      FT23_42: 5
-      FT23_50: 5
-      FT23_32UF: 5
-      FT23_42UF: 5
-      FT23_50UF: 5
+      TAZID: 1631
+      LN_2015: 7
+      LN_2019: 7
+      LN_2021: 7
+      LN_2023: 7
+      LN_2028: 7
+      LN23_32: 7
+      LN23_42: 7
+      LN23_50: 7
+      LN23_32UF: 7
+      LN23_42UF: 7
+      LN23_50UF: 7
+      LN23_50UFM: 7
+      FT_2015: 1
+      FT_2019: 1
+      FT_2021: 1
+      FT_2023: 1
+      FT_2028: 1
+      FT23_32: 1
+      FT23_42: 1
+      FT23_50: 1
+      FT23_32UF: 1
+      FT23_42UF: 1
+      FT23_50UF: 1
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -2497,12 +2495,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -2515,8 +2513,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -2525,10 +2523,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 1
-      LN27_55CO: 1
-      FT27_55RO: 5
-      FT27_55CO: 5
+      LN27_55RO: 7
+      LN27_55CO: 7
+      FT27_55RO: 1
+      FT27_55CO: 1
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -2544,47 +2542,47 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6030
-      B: 6027
-      DISTANCE: 0.10657
+    - A: 6022
+      B: 1631
+      DISTANCE: 0.14848
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '6028_6027'
-      STREET: 6400 Sout
+      LINKID: '23216_1631'
+      STREET: Cent
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: WB
+      DIRECTION: EB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
-      LN_2015: 1
-      LN_2019: 1
-      LN_2021: 1
-      LN_2023: 1
-      LN_2028: 1
-      LN23_32: 1
-      LN23_42: 1
-      LN23_50: 1
-      LN23_32UF: 1
-      LN23_42UF: 1
-      LN23_50UF: 1
-      LN23_50UFM: 1
-      FT_2015: 5
-      FT_2019: 5
-      FT_2021: 5
-      FT_2023: 5
-      FT_2028: 5
-      FT23_32: 5
-      FT23_42: 5
-      FT23_50: 5
-      FT23_32UF: 5
-      FT23_42UF: 5
-      FT23_50UF: 5
+      TAZID: 1631
+      LN_2015: 7
+      LN_2019: 7
+      LN_2021: 7
+      LN_2023: 7
+      LN_2028: 7
+      LN23_32: 7
+      LN23_42: 7
+      LN23_50: 7
+      LN23_32UF: 7
+      LN23_42UF: 7
+      LN23_50UF: 7
+      LN23_50UFM: 7
+      FT_2015: 1
+      FT_2019: 1
+      FT_2021: 1
+      FT_2023: 1
+      FT_2028: 1
+      FT23_32: 1
+      FT23_42: 1
+      FT23_50: 1
+      FT23_32UF: 1
+      FT23_42UF: 1
+      FT23_50UF: 1
       TSPD_2015: 0
       TSPD_2019: 0
       TSPD_2021: 0
@@ -2630,12 +2628,12 @@ changes:
       OP_2023: 0
       OP_2028: 0
       OP23_32: 0
-      OP23_42: 1
-      OP23_50: 1
+      OP23_42: 0
+      OP23_50: 0
       OP23_32UF: 0
-      OP23_42UF: 1
-      OP23_50UF: 1
-      SEGID: '2182_000.0'
+      OP23_42UF: 0
+      OP23_50UF: 0
+      SEGID: ''
       SGX_2015: ''
       SGX_2019: ''
       SGX_2021: ''
@@ -2648,8 +2646,8 @@ changes:
       SGX23_42UF: ''
       SGX23_50UF: ''
       GIS23_32: 0
-      GIS23_42: 656
-      GIS23_50: 656
+      GIS23_42: 0
+      GIS23_50: 0
       MAG_LINK: 0
       WFRC_LINK: 1
       TRNSPD_FF1: 0.0
@@ -2658,10 +2656,10 @@ changes:
       TRNSPD_FF4: 0.0
       TRNSPD_FF5: 0.0
       TRNSPD_FF6: 0.0
-      LN27_55RO: 1
-      LN27_55CO: 1
-      FT27_55RO: 5
-      FT27_55CO: 5
+      LN27_55RO: 7
+      LN27_55CO: 7
+      FT27_55RO: 1
+      FT27_55CO: 1
       TSPD27_55R: 0.0
       TSPD27_55C: 0.0
       HOT27_55RO: 0
@@ -2677,24 +2675,24 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 1670
-      B: 6026
-      DISTANCE: 0.27283
+    - A: 1593
+      B: 6023
+      DISTANCE: 0.21872
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '1670_23902'
+      LINKID: '1593_23489'
       STREET: Cent
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: NB
+      DIRECTION: WB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1593
       LN_2015: 7
       LN_2019: 7
       LN_2021: 7
@@ -2810,24 +2808,24 @@ changes:
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 6026
-      B: 1670
-      DISTANCE: 0.27283
+    - A: 6023
+      B: 1593
+      DISTANCE: 0.21872
       DISTEXCEPT: 0
       EXTERNAL: 0
-      LINKID: '23902_1670'
+      LINKID: '23489_1593'
       STREET: Cent
       HOTZN: 0
       SEL_LINK: 0
       ONEWAY: 0
-      DIRECTION: SB
+      DIRECTION: EB
       SFAC_BASE: 0.0
       SFAC_FUT: 0.0
       CFAC_BASE: 0.0
       CFAC_FUT: 0.0
       TRKRST2015: 0
       TRKRST2023: 0
-      TAZID: 1670
+      TAZID: 1593
       LN_2015: 7
       LN_2019: 7
       LN_2021: 7
@@ -2947,9 +2945,9 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 6026
-      X: -111.8413893619327
-      Y: 40.63170467890798
+      model_node_id: 6021
+      X: -111.92031310596076
+      Y: 40.66211251561952
       GEOGKEY: ''
       NODENAME: ''
       PNR_2015: 0
@@ -2979,9 +2977,9 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 6027
-      X: -111.84076360380469
-      Y: 40.629678488909306
+      model_node_id: 6022
+      X: -111.91258659307937
+      Y: 40.66024926484536
       GEOGKEY: ''
       NODENAME: ''
       PNR_2015: 0
@@ -3011,9 +3009,9 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 6028
-      X: -111.8381504795595
-      Y: 40.62459635461203
+      model_node_id: 6023
+      X: -111.91448630911006
+      Y: 40.6622754540807
       GEOGKEY: ''
       NODENAME: ''
       PNR_2015: 0
@@ -3043,9 +3041,9 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 6029
-      X: -111.84187698039507
-      Y: 40.62787062463088
+      model_node_id: 6020
+      X: -111.92110201369044
+      Y: 40.66507211393535
       GEOGKEY: ''
       NODENAME: ''
       PNR_2015: 0
@@ -3075,41 +3073,9 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 6030
-      X: -111.84003902877012
-      Y: 40.62825120114756
-      GEOGKEY: ''
-      NODENAME: ''
-      PNR_2015: 0
-      PNR_2019: 0
-      PNR_2021: 0
-      PNR_2023: 0
-      PNR_2028: 0
-      PNR23_32: 0
-      PNR23_42: 0
-      PNR23_50: 0
-      PNR23_32UF: 0
-      PNR23_42UF: 0
-      PNR23_50UF: 0
-      FARZN_2015: 0
-      FARZN_2019: 0
-      FARZN_2021: 0
-      FARZN_2023: 0
-      FARZN_2028: 0
-      FARZN23_32: 0
-      FARZN23_42: 0
-      FARZN23_50: 0
-      FARE23_32U: 0
-      FARE23_42U: 0
-      FARE23_50U: 0
-      MAG_NODE: 0
-      WFRC_NODE: 0
-    - EXTERNAL: 0
-      HOTZN: 0
-      TAZID: 0
-      model_node_id: 6025
-      X: -111.84128508857268
-      Y: 40.63468501444991
+      model_node_id: 99999
+      X: -111.91053390256833
+      Y: 40.66020978549668
       GEOGKEY: ''
       NODENAME: ''
       PNR_2015: 0
