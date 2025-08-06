@@ -1,0 +1,41 @@
+project: Grid_WFRC_W64 - BL
+tags: []
+dependencies: {}
+notes: ''
+changes:
+- roadway_property_change:
+    property_changes:
+      LN23_32:
+        existing: 0
+        set: 1
+      LN23_42:
+        existing: 0
+        set: 1
+      LN_2023:
+        existing: 0
+        set: 1
+      LN_2015:
+        existing: 0
+        set: 1
+      LN_2028:
+        existing: 0
+        set: 1
+      LN_2021:
+        existing: 0
+        set: 1
+      LN_2019:
+        existing: 0
+        set: 1
+      LN23_50:
+        existing: 0
+        set: 1
+    facility:
+      links:
+        model_link_id:
+        - 29234
+        - 29397
+        - 29398
+        - 29528
+        modes:
+        - any
+        ignore_missing: true
