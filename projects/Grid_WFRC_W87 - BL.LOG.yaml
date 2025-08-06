@@ -13,7 +13,7 @@ changes:
       ignore_missing: true
 - roadway_addition:
     links:
-    - A: 6240
+    - A: 6241
       B: 20842
       DISTANCE: 0.1754
       DISTEXCEPT: 0
@@ -139,7 +139,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 1
-      model_link_id: 57811
+      model_link_id: 57947
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -147,7 +147,7 @@ changes:
       name: unknown
       roadway: road
     - A: 20842
-      B: 6240
+      B: 6241
       DISTANCE: 0.1754
       DISTEXCEPT: 0
       EXTERNAL: 0
@@ -272,7 +272,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 1
-      model_link_id: 57812
+      model_link_id: 57948
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -283,7 +283,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 6240
+      model_node_id: 6241
       X: -112.03512412193929
       Y: 40.57697830827624
       GEOGKEY: ''
