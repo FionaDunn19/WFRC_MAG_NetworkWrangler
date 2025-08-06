@@ -3107,7 +3107,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: '6025'
+      model_node_id: 6025
       X: -111.84128508857268
       Y: 40.63468501444991
       GEOGKEY: ''
