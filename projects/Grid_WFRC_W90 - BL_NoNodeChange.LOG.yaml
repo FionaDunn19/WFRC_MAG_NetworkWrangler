@@ -16,7 +16,7 @@ changes:
 - roadway_addition:
     links:
     - A: 28284
-      B: 95066
+      B: 95072
       DISTANCE: 0.4366
       DISTEXCEPT: 0
       EXTERNAL: 0
@@ -141,14 +141,14 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57811
+      model_link_id: 58093
       lanes: 0
       drive_access: 1
       walk_access: 1
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 95066
+    - A: 95072
       B: 28284
       DISTANCE: 0.4366
       DISTEXCEPT: 0
@@ -274,7 +274,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57812
+      model_link_id: 58094
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -282,7 +282,7 @@ changes:
       name: unknown
       roadway: road
     - A: 28182
-      B: 95066
+      B: 95072
       DISTANCE: 0.3002
       DISTEXCEPT: 0
       EXTERNAL: 0
@@ -407,14 +407,14 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57813
+      model_link_id: 58095
       lanes: 0
       drive_access: 1
       walk_access: 1
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 95066
+    - A: 95072
       B: 28182
       DISTANCE: 0.3002
       DISTEXCEPT: 0
@@ -540,7 +540,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57814
+      model_link_id: 58096
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -548,7 +548,7 @@ changes:
       name: unknown
       roadway: road
     - A: 534
-      B: 95066
+      B: 95072
       DISTANCE: 0.10797
       DISTEXCEPT: 0
       EXTERNAL: 0
@@ -673,14 +673,14 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57815
+      model_link_id: 58097
       lanes: 0
       drive_access: 1
       walk_access: 1
       bike_access: 1
       name: unknown
       roadway: road
-    - A: 95066
+    - A: 95072
       B: 534
       DISTANCE: 0.10797
       DISTEXCEPT: 0
@@ -806,7 +806,7 @@ changes:
       REL27_55CO: 0
       FLAG_RO: 0
       FLAG_CO: 0
-      model_link_id: 57816
+      model_link_id: 58098
       lanes: 0
       drive_access: 1
       walk_access: 1
@@ -817,7 +817,7 @@ changes:
     - EXTERNAL: 0
       HOTZN: 0
       TAZID: 0
-      model_node_id: 95066
+      model_node_id: 95072
       X: -112.01575961833439
       Y: 41.17750092811925
       GEOGKEY: ''
